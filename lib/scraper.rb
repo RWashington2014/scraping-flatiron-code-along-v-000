@@ -13,7 +13,7 @@ class Scraper
         course.title = post.css("h2")
         course.schedule = post.css(".date")
         course.description = post.css("p")
-        
+      end
       binding.pry
     end
 
